@@ -7,8 +7,7 @@ qrC = qr.QRCode(
     version=3,  
     error_correction=qr.constants.ERROR_CORRECT_Q,
     box_size=10,
-    border=4,
-    
+    border=4,  
 )
 
 def createQr(name = "None", mobile = "None", email = "None"):
